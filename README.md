@@ -1,2 +1,2 @@
 # Ideas
-A place new business ideas
+A place for new business ideas
