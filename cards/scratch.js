@@ -83,4 +83,5 @@ var quadrate = (deck) => {
 	nds = ds.reduce(rf).reverse();
 	nss = ss.reduce(rf).reverse();
 	newDeck=nss.concat(nds,ncs,nhs);
+	return newDeck;
 }
