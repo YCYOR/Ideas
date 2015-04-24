@@ -44,16 +44,43 @@ var cardsArr = [{1:'AH'},{14:'AC'},{33:'7D'}]
 // or is this better: 
 const sd = ft2();
 var hs=[],cs=[],ds=[],ss=[];
-var deal = deck => {
+var deal3 = deck => {
+	hs=[];cs=[];ds=[];ss=[];
 	for (var i3 = 0; i3 < 48; i3=i3+12) {
-		hs.push(deck.slice(i3,i3+3));
-		cs.push(deck.slice(i3+3,i3+6));
-		ds.push(deck.slice(i3+6,i3+9));
-		ss.push(deck.slice(i3+9,i3+12));
+		hs.push(deck.slice(i3,i3+3).reverse());
+		cs.push(deck.slice(i3+3,i3+6).reverse());
+		ds.push(deck.slice(i3+6,i3+9).reverse());
+		ss.push(deck.slice(i3+9,i3+12).reverse());
 	}
 	hs.push(deck.slice(48,49));
 	cs.push(deck.slice(49,50));
 	ds.push(deck.slice(50,51));
 	ss.push(deck.slice(51));
 }
-
+var deal1 = deck => {
+	hs=[];cs=[];ds=[];ss=[];
+	for (var i1 = 0; i1 < 51; i1=i1+4) {
+		hs.push(deck.slice(i1,i1+1));
+		cs.push(deck.slice(i1+1,i1+2));
+		ds.push(deck.slice(i1+2,i1+3));
+		ss.push(deck.slice(i1+3,i1+4));
+	}
+}
+var rf = (a,b) => a.concat(b);
+var quadrate = (deck) => {
+	var d3, newDeck;
+	hs=[];cs=[];ds=[];ss=[];
+	deal3(deck);
+	nhs = hs.reduce(rf).reverse();
+	ncs = cs.reduce(rf).reverse();
+	nds = ds.reduce(rf).reverse();
+	nss = ss.reduce(rf).reverse();
+	hs=[];cs=[];ds=[];ss=[];
+	d3=nss.concat(nds,ncs,nhs);
+	deal1(d3);
+	nhs = hs.reduce(rf).reverse();
+	ncs = cs.reduce(rf).reverse();
+	nds = ds.reduce(rf).reverse();
+	nss = ss.reduce(rf).reverse();
+	newDeck=nss.concat(nds,ncs,nhs);
+}
