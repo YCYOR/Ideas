@@ -39,7 +39,11 @@ cm.set(33,'7D');
 //       one keyed by position (r/c?) and
 //       one keyed by card (or just card #)
 //
-var cardsArr = [{1:'AH'},{14:'AC'},{33:'7D'}]
+var cardsArr = [ {1:'AH'}, {2:'2H'}, {3:'3H'}, {4:'4H'}, {5:'5H'}, {6:'6H'}, {7:'7H'}, {8:'8H'}, {9:'9H'},{10:'10H'},{11:'JH'},{12:'QH'},{13:'KH'},
+								{14:'AC'},{15:'2C'},{16:'3C'},{17:'4C'},{18:'5C'},{19:'6C'},{20:'7C'},{21:'8C'},{22:'9C'},{23:'10C'},{24:'JC'},{25:'QC'},{26:'KC'},
+								{27:'AH'},{28:'2H'},{29:'3H'},{30:'4H'},{31:'5H'},{32:'6H'},{33:'7H'},{34:'8H'},{35:'9H'},{36:'10D'},{37:'JD'},{38:'QD'},{39:'KD'},
+								{40:'AS'},{41:'2S'},{42:'3S'},{43:'4S'},{44:'5S'},{45:'6S'},{46:'7S'},{47:'8S'},{48:'9S'},{49:'10S'},{50:'JS'},{51:'QS'},{52:'KS'}];
+
 // this has a certain simplicity and is not fragile if "dealing" always creates new decks
 // or is this better: 
 const sd = ft2();
@@ -101,4 +105,18 @@ var age = bd => {
 	//   for cards under crown row its: Sun Card Position - 7 + 52 + 3 + 1
 	//   where 7 -> 14 -> 21 ...
 }
-
+// for displacement cards:
+//   row/col in Mundance Spread -> row/col Natural Spread
+//   row/col of Sun Card in Natural Spread -> row/col Mundance Spread
+//   e.g. QC in Mundane Spread is row:1/col:3 -> in Natural Spread that is 3H <- card QC gives to
+//        QC in Natural Spread is row:4/col:4 -> in Mundane Spread that is 10D <- card QC receives from
+// the Planet overlays: Me = Sun Card Postion + 1
+//                      Ve = Sun Card Postion + 2
+//                      Ma = .. + 3
+//                      Ju = .. + 4
+//                      Sa = .. + 5
+//                      SN = .. + 6
+//                      NN = .. + 7
+//          Challenge Card = .. + 8
+//          Result Card    = .. + 9
+//  vertically, only go to 6 or 7
