@@ -85,3 +85,20 @@ var quadrate = (deck) => {
 	newDeck=nss.concat(nds,ncs,nhs);
 	return newDeck;
 }
+var age = bd => {
+	var td = new (Date);
+	// 86400000 = milliseconds/day
+	// 365.25 = days/year
+	// td - bd = today - birthday
+	Math.floor(((td - bd) / 86400000) / 365.25);
+	// age = # of quadrations for current age spread
+	// long range cards (0-6, 7-13, 14-20, 21-27, 28-34, 35-41, 42-48, 49-55, 56-62, 63-69, 70-76, 77-83)
+	// these are quadrations 1, 2 ,3 ,4 ,5 ,6, 7, 8, 9, 10, 11, 12 (first quadaration = age 0)
+	// age / 7 = age for LR spread
+	// LR card in LR spread = Sun Card position + age % 7 + 1
+	// 7 period cards in the yearly spread (current age spread) begin @Sun Card Position + 1
+	// for the vertical cards, start position is Sun Card Position - 7 + 52 - 3
+	//   for cards under crown row its: Sun Card Position - 7 + 52 + 3 + 1
+	//   where 7 -> 14 -> 21 ...
+}
+
