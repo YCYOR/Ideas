@@ -39,7 +39,8 @@ cm.set(33,'7D');
 //       one keyed by position (r/c?) and
 //       one keyed by card (or just card #)
 //
-var cardsArr = [ {1:'AH'}, {2:'2H'}, {3:'3H'}, {4:'4H'}, {5:'5H'}, {6:'6H'}, {7:'7H'}, {8:'8H'}, {9:'9H'},{10:'10H'},{11:'JH'},{12:'QH'},{13:'KH'},
+var cardsArr = [ {0:'Joker'},
+								 {1:'AH'}, {2:'2H'}, {3:'3H'}, {4:'4H'}, {5:'5H'}, {6:'6H'}, {7:'7H'}, {8:'8H'}, {9:'9H'},{10:'10H'},{11:'JH'},{12:'QH'},{13:'KH'},
 								{14:'AC'},{15:'2C'},{16:'3C'},{17:'4C'},{18:'5C'},{19:'6C'},{20:'7C'},{21:'8C'},{22:'9C'},{23:'10C'},{24:'JC'},{25:'QC'},{26:'KC'},
 								{27:'AH'},{28:'2H'},{29:'3H'},{30:'4H'},{31:'5H'},{32:'6H'},{33:'7H'},{34:'8H'},{35:'9H'},{36:'10D'},{37:'JD'},{38:'QD'},{39:'KD'},
 								{40:'AS'},{41:'2S'},{42:'3S'},{43:'4S'},{44:'5S'},{45:'6S'},{46:'7S'},{47:'8S'},{48:'9S'},{49:'10S'},{50:'JS'},{51:'QS'},{52:'KS'}];
@@ -120,3 +121,16 @@ var age = bd => {
 //          Challenge Card = .. + 8
 //          Result Card    = .. + 9
 //  vertically, only go to 6 or 7
+//
+// Daily card calculation:
+//   weeks-from-birth % 90 = spread for the week, begins on day of week of birth, e.g. Tues for me
+//   
+// For LR Card
+//   Need: Age and SunCard#
+//   1) find LR Spread
+//      age / 7 = age for LR Spread
+//   2) get SunCardPosition in LR Spread
+//      Deck (quadrature of age /7)
+//      SunCardPosition = Deck.indexOf(SunCard#)
+//   3) LR Card = (SunCardPosition + Age) % 7 + 1
+//
