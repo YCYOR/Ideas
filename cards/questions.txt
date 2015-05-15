@@ -1,0 +1,37 @@
+JavaScript
+
+1. What are the levels of scope in JS?
+
+2. Is JavaScript multithreaded or single threaded?
+
+3. what are 'built in' types in JS?
+
+4. Define a few patterns of inheritance in JS?
+
+5. Explain a few ways of writing asynchronous JS?
+
+6. Can JavaScript run in any other environment other than browser?
+
+7. Is JS compiled language?
+
+8. Why do we say java script is a dynamic language?
+
+ 
+
+ Angular
+
+ 1. What is the difference between compile and link?
+
+ 2. What is injector in angular?
+
+ 3. What is the difference between factory, service and provider in angularjs?
+
+ 4, what is a directive and why it is used?
+
+ 5. What is $apply and $digest? How they are used in angular?
+
+ 6. What are modules in angularjs
+
+ 7. How data binding works in angular and what is scope?
+
+ 8. How to approach unit testing for angularjs components?
