@@ -1,2 +1,3 @@
-# Ideas
-A place for new business ideas
+# YCYOR Ideas
+
+### When You Create Your Own Reality, all ideas become probable.
