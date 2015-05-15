@@ -16,10 +16,13 @@ JavaScript
    AJAX is one way of writing asynchronous JavaScript. AJAX uses the XMLHttpRequest(XHR) .
 
 6. Can JavaScript run in any other environment other than browser?
+   Yes; most notably there is the node.js environment for running JavaScript languages independently of the browser.
 
 7. Is JS compiled language?
+   Yes, modern JavaScript is compiled into byte code and then into machine language. Originally, it was interpreted.
 
 8. Why do we say java script is a dynamic language?
+   Because JavaScript variables may point to any object or built-in datatype. For instance, var a = 'foo'; a = new Date(); is valid JavaScript, even if it is not good practice.
 
  
 
