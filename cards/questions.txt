@@ -1,14 +1,19 @@
 JavaScript
 
 1. What are the levels of scope in JS?
+   Global scope for a var exists when a var is defined at the top level, i.e. outside of any function. Inside of a function definition, a var would be said to have local scope, i.e. within the funciton itself. A function defined inside another function closes over its parent's scope, creating a closure. There is also object scope for properties defined on an object, as well a prototype scope for properties defined on an object's prototype. In ES6, the LET keyword defines lexical scope.
 
 2. Is JavaScript multithreaded or single threaded?
+   JavaScipt is single threaded.
 
 3. what are 'built in' types in JS?
+   Built in types are defined in the JavaScript language itself, for instance: strings, numbers and bolleans. Other objects are created by defining objects. Strings, numbers and booleans, have properties and functions but are not objects. You can create new properties on them but these properties are "lost", e.g. var a = foo; foo.bar = 23; foo.bar // undefined.
 
 4. Define a few patterns of inheritance in JS?
+   Prototypal inheritance is different from object-oriented inheritance where objects from other objects. In JavaScript, every object has a prototype property which can be inheritied by way of that object's constructor method. An object's prototype property can also be set explicitly.
 
 5. Explain a few ways of writing asynchronous JS?
+   AJAX is one way of writing asynchronous JavaScript. AJAX uses the XMLHttpRequest(XHR) .
 
 6. Can JavaScript run in any other environment other than browser?
 
