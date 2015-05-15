@@ -90,7 +90,16 @@ var quadrate = (deck) => {
 	newDeck=nss.concat(nds,ncs,nhs);
 	return newDeck;
 }
-var age = bd => {
+var age = function (ibd) {
+	var td = new Date();
+	var bd = new Date(ibd);
+	var daysold = (td - bd) / 86400000;
+	var ageinyears = Math.floor(daysold / 365.25);
+	var ageinweeks = daysold / 7;
+	var spreadnum = ageinweeks % 90;
+	return {daysold:daysold,ageinyears:ageinyears,ageinweeks:ageinweeks,spreadnum:spreadnum};}
+
+var age1 = bd => {
 	var td = new (Date);
 	// 86400000 = milliseconds/day
 	// 365.25 = days/year
@@ -107,7 +116,7 @@ var age = bd => {
 	//   where 7 -> 14 -> 21 ...
 }
 // for displacement cards:
-//   row/col in Mundance Spread -> row/col Natural Spread
+//   row/col in Mundane Spread -> row/col Natural Spread
 //   row/col of Sun Card in Natural Spread -> row/col Mundance Spread
 //   e.g. QC in Mundane Spread is row:1/col:3 -> in Natural Spread that is 3H <- card QC gives to
 //        QC in Natural Spread is row:4/col:4 -> in Mundane Spread that is 10D <- card QC receives from
@@ -126,7 +135,7 @@ var age = bd => {
 //   weeks-from-birth % 90 = spread for the week, begins on day of week of birth, e.g. Tues for me
 //   
 // For LR Card
-//   Need: Age and SunCard#
+//   Need: Age (BirthDate, really) and SunCard#
 //   1) find LR Spread
 //      age / 7 = age for LR Spread
 //   2) get SunCardPosition in LR Spread
