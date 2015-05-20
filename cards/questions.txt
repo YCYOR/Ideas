@@ -10,41 +10,44 @@ JavaScript
    Built in types are defined in the JavaScript language itself, for instance: strings, numbers and bolleans. Other objects are created by defining objects. Strings, numbers and booleans, have properties and functions but are not objects. You can create new properties on them but these properties are "lost", e.g. var a = foo; foo.bar = 23; foo.bar // undefined.
 
 4. Define a few patterns of inheritance in JS?
-   Prototypal inheritance is different from object-oriented inheritance where objects from other objects. In JavaScript, every object has a prototype property which can be inheritied by way of that object's constructor method. An object's prototype property can also be set explicitly.
+   In JavaScript the primary mode of inheritance is prototypal inheritance; this is different from an object-oriented language; object-oriented or class inheritance is where objects inherit from other objects based on a class/subclass system. In JavaScript, every object has a prototype property which can be inheritied by way of that object's constructor method. Additionally, an object's prototype property can also be set explicitly. 
 
 5. Explain a few ways of writing asynchronous JS?
-   AJAX is one way of writing asynchronous JavaScript. AJAX uses the XMLHttpRequest(XHR) .
+   AJAX is one way of writing asynchronous JavaScript. AJAX uses the XMLHttpRequest(XHR). Callbacks is another common way. Promises also provide asynchronous behavior.
 
 6. Can JavaScript run in any other environment other than browser?
-   Yes; most notably there is the node.js environment for running JavaScript languages independently of the browser.
+   Yes; most notably there is the node.js environment for running JavaScript independently of the browser.
 
 7. Is JS compiled language?
-   Yes, modern JavaScript is compiled into byte code and then into machine language. Originally, it was interpreted.
+   Yes, modern JavaScript is compiled into byte code and then into machine language. When it was first introduced, it was interpreted.
 
 8. Why do we say java script is a dynamic language?
    Because JavaScript variables may point to any object or built-in datatype. For instance, var a = 'foo'; a = new Date(); is valid JavaScript, even if it is not good practice.
 
- 
 
  Angular
 
  1. What is the difference between compile and link?
-   Linking is a function that registers DOM listeners and updates the DOM. Compile is the process where an HTML string or DOM is transformed into a template and then produces a template function. Linking occurs after the templates have been compiled and cloned.
+   Linking is a function that registers DOM listeners and updates the DOM. Compile is the process where an HTML string or DOM element is transformed into a template which then produces a template function. Linking occurs after the templates have been compiled and cloned. It is the listeners setup in this process that allows for the digest cycle and two-way data binding.
 
  2. What is injector in angular?
    Injectors are part of Angular's Dependency Injection system. It is responsible for creating and providing components and providing them to other components. Dependency Injection is a pattern that facilitates de-coupling in software.
 
  3. What is the difference between factory, service and provider in angularjs?
-   Services return an instance of their function. Services return the value of their defining function. Providers return the function.$get method and have the ability to configured in the module's configuration.
+   Services return an instance of their function. Factories return the value of their defining function. Providers return a function.$get method and have the ability to configured in the module's configuration cycle.
 
  4, what is a directive and why it is used?
-   A directive is a way of creating new behavior into an Angular app in an encapsulated way. They are used to inject new features in a reusable way, directly in the markup, without the user(consumer) of the directive having to know any JavaScript.
+   A directive is a way of creating new behavior in an Angular app in an encapsulated way. It is used to inject new features in a reusable way, directly in the markup, without the user(consumer) of the directive having to know JavaScript.
 
  5. What is $apply and $digest? How they are used in angular?
+   The $digest cycle in Angular is when the listeners (or watchers) that have been setup during the linking function are fired off; but the $digest cycle is not started directly, but rather the $apply funciton is called to begin the $digest cycle. $apply can also be called directly; this is done when for instance some model on the $scope has been changed by a setTimeout() call, then $apply must be called to update the $scope. Similalrly, when a DOM element is updated by a directive that manipulates an object on the $scope, then $apply must be called.
    
-
  6. What are modules in angularjs
+   Modules in Angular are the primary mechanism for managing application complexity. They allow the dependency injection system to work. Services created within a module can be easily injected into the module's controllers and other services. Directives, filters, animations, and other Angular components are made possible by the module system. Modules also allow for load-time configuaration of providers and other module components. Testing is also facilitated by Angular's dependency injection system which is made possible by modules.
 
  7. How data binding works in angular and what is scope?
-
+   Scope is Angular's way of encapsulating application state. And $scope, is the mechanism by which Angular's two-way binding is made possible. By adding an ng-controller to the application's DOM, objects created in that controller's JavaScript implementation can be referenced direcdtly in the HTML. 
  8. How to approach unit testing for angularjs components?
+   Unit testing is facilitated by Angular's dependency injection system whcih allows for components to be passed into other components which can then be easily mocked or stubbed by the test framework. The Karma test runner is widely used by Angular developers. It is a node.js application that greatly facilitates running units tests in various browsers and headless browsers such as PhantomJS.
+	 Jasmine is the unit test framework favored by many Angular developers. It is a behavior-driven framework for laying out tests and assertions.
+	 Angular-mock or ng-mock allows for the mocking of components during testing. Using mocks (and stubs) during testing facilitates testing from the beginning phases of application development as not all components need to be completed during the unit testing phase.
