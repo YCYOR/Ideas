@@ -5,7 +5,7 @@ Software Contractor, West Corporation (via Teksystems), Omaha, January 2015 - Cu
   Using JavaScript, SQL and VXML:
 		Created Interactive Voice Response (IVR) applications using an in-house IDE
 		Coded more 100 JavaScript functions for accessing 25+ API's to web services and SQL databases
-		Wrote Informix Stored Procedures, tested them on the command line, coded JavaScript functions to run the them and finally called those functions from the IVR application
+		Wrote Informix Stored Procedures, tested them on the command line, coded JavaScript functions to run them and finally called those functions from the IVR application
 
 Technology Consultant, Dallas and Omaha, 1998-2014
    Independent Contractor
