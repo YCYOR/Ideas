@@ -18,3 +18,9 @@ test('timing test',function (t) {
 		t.isEqual(Date.now() - start, 100, "it's now or then");
 	}, 100);
 })
+// test with:
+//   node simple-prompt.js | node_modules/.bin/tap-spec
+// or:
+//   node simple-prompt.js | node_modules/.bin/tap-dot
+// or:
+//   node simple-prompt.js | node_modules/.bin/tap-difflet
