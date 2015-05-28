@@ -1,5 +1,4 @@
 Technical Skills
-
 	JavaScript/AngularJS/Backbone
 	Node.js/Express/Sails
 	API Creation
@@ -15,9 +14,11 @@ Technical Skills
 	Relational Database - MySQL/Informix
 	Unit/Functional/End-to-End Testing
 	Prototyping - Fast Iteration Development
+	Technical Writing
+	Courseware Development
+	Training
 
 Management Skills
-
 	Mentoring/Tutoring
 	Project Leadership and Management
 	Technical Strategy
@@ -115,10 +116,8 @@ Software Developer
 		- Designed and implemented a Sales Support System for the steel mill using C and SQL
 
 Education:
-
 	University of Texas, Austin, B.S. Communication, 1974
 
 Computer Platforms:
 	OS X, iOS, Linux, NeXTSTEP, Windows
 
-Technical writing, course development and training
