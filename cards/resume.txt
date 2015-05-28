@@ -110,11 +110,9 @@ Co-Founder, Chief Technology & Operating Officer
 		- Responsible for all hardware and network selection, deployment and operation.
 		- Developed distance-learning technologies.
 
-
 Chaparral Steel, Dallas, Texas, 1988-1990
 Software Developer
 		- Designed and implemented a Sales Support System for the steel mill using C and SQL
-
 
 Education:
 
