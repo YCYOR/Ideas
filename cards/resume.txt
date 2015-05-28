@@ -47,7 +47,7 @@ Front-end Developer
 
 Mass Luminosity, Inc. (massluminosity.com), Dallas, Texas, 2004 - Present
 Business and Technology Consulting
-		- Provide technicology leadership and direction
+		- Provide technology leadership and direction
 		- Oversee the creation of a specialized messaging system
 		- Specify the technology stack and assisted with the architecture 
 
