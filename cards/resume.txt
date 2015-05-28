@@ -1,84 +1,126 @@
+Technical Skills
 
-Job History:
+	JavaScript/AngularJS/Backbone
+	Node.js/Express/Sails
+	API Creation
+	MVC Design Pattern
+	HTML5/CSS3/Stylus
+	Unix System Administration - Linux/OS X
+	Source Code Control, Git/Mercurial
+	Web Services - REST/SOAP/WSDL
+	Functional Reactive Programming - Elm/RxJS/Bacon.js
+	Functional Programming - Clojure/Haskell/Underscore/Lodash/Ramda.js
+	Object-Oriented Design and Development - Ruby/Java/Objective-C
+	Test Driven Development
+	Relational Database - MySQL/Informix
+	Unit/Functional/End-to-End Testing
+	Prototyping - Fast Iteration Development
 
-Software Contractor, West Corporation (via Teksystems), Omaha, January 2015 - Current
+Management Skills
+
+	Mentoring/Tutoring
+	Project Leadership and Management
+	Technical Strategy
+	Open Allocation Systems
+	Client Relations
+
+Job History
+
+West Corporation, Omaha, NE, January 2015 - Present
+Software Contractor
   Using JavaScript, SQL and VXML:
-		Created Interactive Voice Response (IVR) applications using an in-house IDE
-		Coded more 100 JavaScript functions for accessing 25+ API's to web services and SQL databases
-		Wrote Informix Stored Procedures, tested them on the command line, coded JavaScript functions to run them and finally called those functions from the IVR application
+		- Created Interactive Voice Response (IVR) applications using an in-house VXML IDE
+		- Coded more 100 JavaScript functions for accessing 25+ API's to web services and SQL databases
+		- Wrote Informix Stored Procedures, tested them on the command line
+		- Coded JavaScript functions to run these Stored Procedure
+		- Called the JavaScript functions from the IVR/VXML application
+		- Mentored less experienced developers in JavaScript and System Development techniques
 
-Technology Consultant, Dallas and Omaha, 1998-2014
-   Independent Contractor
-	ILF, Inc, Austin — front-end development
-Front-end development work for affiliate support network using JavaScript, AngularJS, HTML, CSS, PHP and MySQL.
+ILF, Inc, Austin, Texas, May - July 2013
+Front-end Developer
+	Using JavaScript, AngularJS, PHP, MySQL, HTML5, CSS3
+		- Developed a sophisticated single page application for an online retail website
+		- Replaced a PHP driven web site with a Responsive UI with AngularJS to display sales data
+			- Created and implemented a User Interface with drill-down capability
+			- Data was fetched using an API written in PHP connected to a MySQL database.
 
-Developed a web application using this development stack to replace a PHP driven web site, using AngularJS to display sales data with a drill-down capability. Data was fetched using an API written in PHP connected to a MySQL database.
+Mass Luminosity, Inc. (massluminosity.com), Dallas, Texas, 2004 - Present
+Business and Technology Consulting
+		- Provide technicology leadership and direction
+		- Oversee the creation of a specialized messaging system
+		- Specify the technology stack and assisted with the architecture 
 
-	Mass Luminosity, Inc. (massluminosity.com) — business consulting
-Provided technical direction for the creation of a specialized messaging system; Specified the technology stack and assisted with the architecture including AngularJS and NodeJS on the server side.
+The Cyberathlete Professional League (thecpl.com), Dallas, Texas, 1998 - 2003
+Business Consulting
+		- As consultant to the CEO, guided all technological decisions
+		- Provided technical sales support
 
-	The Cyberathlete Professional League (thecpl.com) — business consulting
-As consultant to the CEO, guided all technological decisions, provided technical sales support.
+Pizza by Marco, Dallas, Texas, 1998 - 2004
+Business and Technology Consulting
+		- Designed the initial online ordering system
 
-	Pizza by Marco, a restaurant chain in Dallas — business consulting
-Designed the initial online ordering system.
+NewWorld.com, Inc., Dallas, Texas, 1994 - 2004
+Technology Consultant
+		— Startup and communication infra-structure
+			- Built, setup and managed the company's first  web server and mail server
+		- Created the first web site
+		- Provided all technology direction
 
-	NewWorld.com, Inc. (newworld.com) — startup and communication infra-structure
-Created their first web site, setup and ran an email server and provided all technological strategy.
+Strongbox Storage, Inc. (strongboxstorage.com), Omaha, NE 2008 - Present
+Technology Consult and Website Development
 
-	Strongbox Storage, Inc. (strongboxstorage.com) — web site development
-This was a special case as the site needed to be maintained by the non-technical owner; I had to find a Macintosh OS X tool that was easy to use, but flexible enough to get the job done: Sandvox.
+Julio's Tex-Mex (julios.com), Omaha, NE, 1982 - Present
+Business and Technology Consulting
+		- Created the initial spreadsheets for server ticket and tip accounting
+		- On-going technology advisor
 
-	Julio's Tex-Mex (julios.com) restaurants in Omaha — business and technology consulting
+Amrtia University, Amritapuri, Kerala, India, 2006-2008
+Project Lead and Senior Programmer 
+	Using Ruby, SQL, HTML and CSS
+		- Developed a simulator for city bus scheduling (telematics) and position tracking.
+			- The simulator used YAML files to describe scenarios; the scenarios had 4-6 buses making 2-6 stops along 10 mile or longer routes. In addition to simulating buses moving along their routes and stopping at stations, scenarios including contacting other buses in an ad hoc manner. Ad hoc meant that when buses encountered each other, they shared telemetry data; additionally, different hardware in the system had to emulated such as: the hardware on each bus that had the telemetry data and the hardware at various bus stations used to communicate with the central bus terminal
+		- Developed the User Interface to an in-house developed card stripe reader
+			- Used for student and faculty identity cards. The university wanted a new student ID system using "smart cards", in this case cards with magnetic stripes that students and faculty would swipe for access to secure areas of the campus as well as for using the university library and student canteens; the software included functionality that: linked the card readers with a security module and the security module which determined access as well as logging all data to a dashboard for monitoring
 
-Project Lead and Lead Programmer, Amrtia University, Amritapuri, Kerala, India 2006-2008
-As a volunteer, developed in Ruby, HTML and CSS, a simulator for city bus scheduling (telematics) and position tracking. The simulator used YAML files to describe scenarios; the scenarios had 4-6 buses making 2-6 stops along 10 mile or longer routes. In addition to simulating buses moving along their routes and stopping at stations, scenarios including contacting other buses in an ad hoc manner. Ad hoc meant that when buses encountered each other, they shared telemetry data; additionally, different hardware in the system had to emulated such as: the hardware on each bus that had the telemetry data and the hardware at various bus stations used to communicate with the central bus terminal.
-    
+PlanetAceTechnology, Austin, Texas 2005-2006
+Web Developer and Poker Server Programmer
+	Using Object-C, Java, JavaScript, AJAX, PHP, SQL, Java, Spring
+		- Maintained a server process for an online poker site
+		- Added functionality to the server to support a new communication system
+		- Designed and developed a new communication system
+			- For management to communicate with their remote cashiers and support personnel
+		- Designed and developed AJAX driven web application to show message queues
+		- Developed using JavaScript without the benefit of a modern library such as jQuery
+			- The server-side API was written in PHP with a MySQL database
+		- Modified the poker client, in Java with Spring, to handle alerts and messaging 
+		- Provided the facility for end-users to communicate with the in-game cashiers
+
+AIMS Hospital, San Ramon, California and Kochin, India, 1996-1998
+Technology Lead
+		- Responsible for vendor selection and design for computer and network technology 
+		- Hired and trained the software development staff in Java programming.
+		- Lectured at trade schools and universities on Java.
+
+Multimedia Learning, Inc., Dallas, Texas, 1990-1994
+Co-Founder, Chief Technology & Operating Officer
+		- Designed and implemented KnowledgeTool in Objective-C
+			- KnowledgeTool was a computer-based training authoring tool,	on and for the NeXT computer
+		- Hired more than 100 employees
+		- Managed all technology, operations and accounting staff
+		- Responsible for all hardware and network selection, deployment and operation.
+		- Developed distance-learning technologies.
 
 
-Using Ruby, developed an interface to a card stripe reader to be used for student and faculty identity cards. The university wanted a new student ID system using "smart cards", in this case cards with magnetic stripes that students and faculty would swipe for access to secure areas of the campus as well as for using the university library and student canteens; the software included functionality that: linked the card readers with a security module and the security module which determined access as well as logging all data to a dashboard for monitoring.
-
-Web and Server Programmer, PlanetAceTechnology (pokerpages.com) Austin, Texas 2005-2006
-Maintained a server process for an online poker site in C and and Objective-C. Added functionality to the server to support a new communication system
-
-Designed and developed a new communication system for the owners of the online poker site to communicate with their cashiers and support personnel in the field using JavaScript, AJAX, HTML, CSS, PHP and MySQL.
-
-Wrote an AJAX driven web application to show message queues; developed using JavaScript without the benefit of a modern library such as jQuery. The server-side API was written in PHP with a MySQL database.
-
-For a given cashier, there were messages with different statuses such as Urgent Response Needed, Pending Requests, etc. These message queues could be drilled-down to see the history of a given message topic; new messages were alerted both on the web page itself as well as in the poker client.
-
-Modified the poker client, in Java with Spring, to handle both the alerts as well as the messaging itself this afforded the poker playing users the facility to communicate with the in-game cashiers.
-
-Technology Lead, AIMS Hospital, San Ramon, California and Kochin, India 1996-1998
-As a volunteer was responsible for vendor selection, and detailing all computer and network technology infrastructure for the hospital.
-
-Hired and trained the initial software development staff in Java programming.
-
-Lectured at trade schools and universities on the features and benefits of using Java.
-
-Founder, Chief Technology & Operating Officer, Multimedia Learning, Inc., Dallas, Texas 1990-1994
-Designed and implemented KnowledgeTool, a computer-based training authoring tool,	on and for the NeXT computer.
-
-Hired more than 100 employees and managed all technology, operations and accounting staff.
-
-Responsible for all hardware and network selection, deployment and operation.
-
-Developed distance-learning technologies.
-
-
-Software Developer, Chaparral Steel, Dallas, Texas 1988-1990
-Designed and implemented a Sales and Customer Support System for the steel mill using C and SQL.
+Chaparral Steel, Dallas, Texas, 1988-1990
+Software Developer
+		- Designed and implemented a Sales Support System for the steel mill using C and SQL
 
 
 Education:
-University of Texas, Austin, B.S. Communication, 1974
 
+	University of Texas, Austin, B.S. Communication, 1974
 
-Technical Skills:
-Programming Languages: JavaScript, HTML, CSS, Ruby, Objective-C, C, Java, PHP, SQL
-
-Frameworks: NodeJS, AngularJS, jQuery, and others
-
-Computer Platforms: OSX, iOS, Linux, NeXTSTEP, Windows
+Computer Platforms:
+	OS X, iOS, Linux, NeXTSTEP, Windows
 
 Technical writing, course development and training
