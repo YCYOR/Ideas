@@ -1,4 +1,4 @@
-Technical Skills
+Technical Skills:
 	JavaScript/AngularJS/Backbone
 	Node.js/Express/Sails
 	API Creation
@@ -18,14 +18,14 @@ Technical Skills
 	Courseware Development
 	Training
 
-Management Skills
+Management Skills:
 	Mentoring/Tutoring
 	Project Leadership and Management
 	Technical Strategy
 	Open Allocation Systems
 	Client Relations
 
-Job History
+Job History:
 
 West Corporation, Omaha, NE, January 2015 - Present
 Software Contractor
