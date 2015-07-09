@@ -1,0 +1,31 @@
+-rw-r--r--  1 anand  419 Jul  6 09:08 hello-react.js
+-rw-r--r--  1 anand 1.6K Jul  8 13:01 server.js
+-rw-r--r--  1 anand  577 Jul  8 13:08 comment.json
+-rw-r--r--  1 anand  489 Jul  8 13:20 hw.html
+-rw-r--r--  1 anand  489 Jul  8 13:22 index.html
+-rw-r--r--  1 anand 3.2K Jul  8 13:24 hw.js
+-rw-r--r--  1 anand  865 Jul  8 13:29 base.css
+
+hw.html (same as index.html) -- React tutorial rewritten using es6/7
+hw.js -- built with: babel -w hw.js --stage 0 -d build/ & (--stage 0 is for es7)
+base.css -- simple styles for tutorial
+comment.json -- comments for tutorial
+server.js -- simple node server for tutorial
+
+hello-react.js -- a most simple React component
+React/react-0.13.3 -- React starter kit from https://facebook.github.io/react/
+
+TODO
+style hw with bootstrap, center, etc.
+number palindrome checker
+  4 digit numbers only (24 hour time with leading 0's)
+  get time, remove ':'
+  must have:
+    middle 2 digits the same 
+    end 2 digits the same
+  examples:
+    12:21
+    13:31
+    00:00
+    11:11
+  need generator for time palindrome

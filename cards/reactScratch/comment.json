@@ -1,0 +1,34 @@
+[
+    {
+        "author": "Jeff",
+        "text": "This is a __comment__"
+    },
+    {
+        "author": "Pam",
+        "text": "This is not a *comment*"
+    },
+    {
+        "author": "Erpa Katang",
+        "text": "This is certainly NOT *another* comment"
+    },
+    {
+        "author": "Thursday",
+        "text": "_Fester Says Ugh_"
+    },
+    {
+        "author": "Oblio",
+        "text": "Where is Arrow?"
+    },
+    {
+        "author": "Arrow",
+        "text": "I'm right here"
+    },
+    {
+        "author": "Vera Katang",
+        "text": "Farquarteenabalongtoo"
+    },
+    {
+        "author": "Seerma Awatinga",
+        "text": "You say something..."
+    }
+]

@@ -1,0 +1,15 @@
+drwxr-xr-x 3 anand 102 Jul  7 11:55 spec
+-rw-r--r-- 1 anand 496 Jul  6 21:12 p.js
+-rw-r--r-- 1 anand 178 Jul  6 21:19 lib.js
+-rw-r--r-- 1 anand 210 Jul  6 21:22 main.js
+-rw-r--r-- 1 anand 457 Jul  6 23:53 package.json
+-rw-r--r-- 1 anand 219 Jul  7 09:19 point.js
+-rw-r--r-- 1 anand  79 Jul  7 19:29 colors.js
+
+point.js - a simple exported class
+spec/point.spec.js - testing of point.js using jest
+-- es6 imports work with main and lib but not with point.spec.js and point.js
+main.js - imports from lib.js
+lib.js - exports a const and fn
+colors.js - exports a default object of color: #value
+
